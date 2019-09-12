@@ -2,6 +2,7 @@
 #include <string.h>
 #include <stdlib.h>
 
+
 char query[100];
 
 void checkSyntax()
@@ -84,5 +85,6 @@ void cli()
 
 int main()
 {
+    system("clear");
     cli();
 }
