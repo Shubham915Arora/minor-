@@ -1,0 +1,28 @@
+create table Student000 (roll int, name string, marks double);
+create\stable\s[a-zA-Z][a-zA-Z0-9_]+\s?\(([a-zA-Z][a-zA-Z0-9_]+\s(int|string|double)\,?\s?)+\);$
+
+insert into Student000 values (5,Akash Nishad,85.67);
+insert\sinto\s[a-zA-Z][a-zA-Z0-9_]+\svalues\s?\(([a-zA-Z][a-zA-Z0-9.]+\s?,?\s?)+\);$
+
+create database upes;
+create\sdatabase\s[a-zA-Z][a-zA-Z0-9_]+;$
+
+select *from Student000;
+select\s\*\sfrom\s[a-zA-Z][a-zA-Z0-9_]+;$  //Done 
+
+drop table Student;
+drop\stable\s[a-zA-Z][a-zA-Z0-9_]+;$	//Done 
+
+drop upes;
+drop\s[a-zA-Z][a-zA-Z0-9_]+;$	//Done 
+
+use upes;
+use\s[a-zA-Z][a-zA-Z0-9_]+;$ //Done 
+
+show databases;
+show\sdatabases //Done
+show tables;
+show\stables;$ //Done 
+
+select name,roll from Student000;
+select\s([a-zA-Z][a-zA-Z0-9_]+\s?\,?\s?)+from\[a-zA-Z][a-zA-Z0-9_]+;$ //Done 
